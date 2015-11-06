@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class IndexClienteController extends Controller {
+class IndexAdminController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ class IndexClienteController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index-cliente');
+		return view('index-admin');
 	}
 
 }
