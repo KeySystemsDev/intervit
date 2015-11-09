@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'IndexClienteController@index');
+Route::get('/', 'CotizacionController@cotizacion');
 
 Route::get('index-admin', 'IndexAdminController@index');
 

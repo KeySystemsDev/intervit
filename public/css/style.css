@@ -1,0 +1,48 @@
+.result-list .desc {
+  margin-bottom: 20px;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.button-eliminar {
+  margin-top: -7px;
+  padding: 5px 10px;
+}
+
+.result-list .result-price {
+  width: 240px;
+  font-size: 28px;
+  text-align: center;
+  border-left: 1px dashed #ddd;
+  padding-top: 75px;
+}
+
+.content-top{
+	padding-top:80px;
+	background: #f4f6f7!important;
+}
+.content-top .content-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+.content-top .content-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  background: #242a30;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.header.navbar.navbar-inverse .brand-text, .header.navbar.navbar-transparent .brand-text {
+  color: #2d353c;
+}
