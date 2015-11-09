@@ -20,7 +20,7 @@ class IndexClienteController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index-cliente');
+		return view('cliente/index-cliente');
 	}
 
 }

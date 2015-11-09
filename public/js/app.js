@@ -3,7 +3,7 @@
 
 // Application -----------------------------------------------------------------
 
-var coreApp = angular.module('base-name-app', ['ngResource']
+var coreApp = angular.module('intervit', ['ngResource']
     , function($interpolateProvider){
 
         $interpolateProvider.startSymbol('[[');

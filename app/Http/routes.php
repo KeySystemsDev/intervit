@@ -13,7 +13,7 @@
 
 Route::get('/', 'IndexClienteController@index');
 
-Route::get('cliente-admin', 'IndexAdminController@index');
+Route::get('index-admin', 'IndexAdminController@index');
 
 Route::get('home', 'HomeController@index');
 

@@ -20,7 +20,7 @@ class IndexAdminController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index-admin');
+		return view('admin/index-admin');
 	}
 
 }
