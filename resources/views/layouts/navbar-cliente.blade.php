@@ -20,11 +20,11 @@
             <!-- begin navbar-collapse -->
             <div class="collapse navbar-collapse" id="header-navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about" data-click="scroll-to-target"><i class="fa fa-cubes"></i> Productos</a></li>
+                    <li><a href="{{ url('/') }}"><i class="fa fa-cubes"></i> Productos</a></li>
                     <li class="active dropdown">
                         <a href="#home" data-toggle="dropdown"><i class="fa fa-line-chart"></i> Finanzas <b class="caret"></b></a>
                         <ul class="dropdown-menu dropdown-menu-left animated fadeInDown">
-                            <li><a href="#">Cuentas Pendientes</a></li>
+                            <li><a href="{{url ('/cuentas-pendientes')}}">Cuentas Pendientes</a></li>
                         </ul>
                     </li>
                     <li class="active dropdown">

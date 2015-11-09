@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class CotizacionController extends Controller {
+class CuentasPendientesController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -18,9 +18,9 @@ class CotizacionController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function Cotizacion()
+	public function CuentasPendientes()
 	{
-		return view('cliente/cotizacion');
+		return view('cliente/cuentas-pendientes');
 	}
 
 }
