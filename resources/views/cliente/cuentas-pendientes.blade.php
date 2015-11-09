@@ -70,12 +70,13 @@
                              <div class="row">
                                 <br>
                                 <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
+                                    <button class="btn btn-pagar btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
                                 </center>
                             </div>
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-lg-6 content-facturas">
                     <ul class="list-group list-group-lg no-radius list-email col">
                         <li class="list-group-item inverse">
@@ -109,12 +110,13 @@
                              <div class="row">
                                 <br>
                                 <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
+                                    <button class="btn btn-pagar btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
                                 </center>
                             </div>
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-lg-6 content-facturas">
                     <ul class="list-group list-group-lg no-radius list-email col">
                         <li class="list-group-item inverse">
@@ -148,12 +150,13 @@
                              <div class="row">
                                 <br>
                                 <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
+                                    <button class="btn btn-pagar btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
                                 </center>
                             </div>
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-lg-6 content-facturas">
                     <ul class="list-group list-group-lg no-radius list-email col">
                         <li class="list-group-item inverse">
@@ -187,95 +190,14 @@
                              <div class="row">
                                 <br>
                                 <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
+                                    <button class="btn btn-pagar btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
                                 </center>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 content-facturas">
-                    <ul class="list-group list-group-lg no-radius list-email col">
-                        <li class="list-group-item inverse">
-                            <a href="#" class="email-user">
-                                <i class="fa fa-line-chart"></i>
-                            </a>
-                            <div class="email-info">
-                                <h5 class="email-title">
-                                    <a href="#">
-                                        N° Factura: 4848
-                                    </a>
-                                </h5>
-                                <div class="row content-factura">
-                                    <div class="col-sm-6">
-                                        Monto: <span class="label label-inverse f-s-10">1000.00  <i class="fa fa-usd"></i></span>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        Saldo: <span class="label label-inverse f-s-10">1000.00  <i class="fa fa-usd"></i></span>
-                                    </div>
-                                </div>
-                                <div class="row content-factura">
-                                    <div class="col-sm-6">
-                                        Fecha Recepción : 10/10/10
-                                    </div>
-                                    <div class="col-sm-6">
-                                        Fecha Vencimiento : 10/10/10
-                                    </div>
-                                </div>
-
-                            </div>
-                             <div class="row">
-                                <br>
-                                <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
-                                </center>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 content-facturas">
-                    <ul class="list-group list-group-lg no-radius list-email col">
-                        <li class="list-group-item inverse">
-                            <a href="#" class="email-user">
-                                <i class="fa fa-line-chart"></i>
-                            </a>
-                            <div class="email-info">
-                                <h5 class="email-title">
-                                    <a href="#">
-                                        N° Factura: 4848
-                                    </a>
-                                </h5>
-                                <div class="row content-factura">
-                                    <div class="col-sm-6">
-                                        Monto: <span class="label label-inverse f-s-10">1000.00  <i class="fa fa-usd"></i></span>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        Saldo: <span class="label label-inverse f-s-10">1000.00  <i class="fa fa-usd"></i></span>
-                                    </div>
-                                </div>
-                                <div class="row content-factura">
-                                    <div class="col-sm-6">
-                                        Fecha Recepción : 10/10/10
-                                    </div>
-                                    <div class="col-sm-6">
-                                        Fecha Vencimiento : 10/10/10
-                                    </div>
-                                </div>
-
-                            </div>
-                             <div class="row">
-                                <br>
-                                <center>
-                                    <button type="button" class="btn btn-danger m-r-5 m-b-5"><i class="fa fa-money"></i> Pagar</button>
-                                </center>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
 
             </div>
-
-
 
         </div>
         <!-- #contact -->

@@ -40,6 +40,8 @@
 	<!-- ================== BEGIN BASE JS ================== -->
 	<script src="{{ asset('/thema/assets-frontend/plugins/pace/pace.min.js') }}"></script>
 	<!-- ================== END BASE JS ================== -->
+	
+	@yield('css')
 
 	<link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 
