@@ -86,3 +86,27 @@
 .pull-center{
   text-align: center;
 }
+
+.img-2{
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+.img-detalle-publicidad{
+    width: 100%;
+    border: 1px solid #ecf0f1;
+}
+.costo-producto{
+  color: rgb(145, 142, 142);
+  font-size: 45px;
+}
+
+.content-desce {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #242a30;
+}
+.button-agregar-producto{
+  margin-top: 60px;
+}

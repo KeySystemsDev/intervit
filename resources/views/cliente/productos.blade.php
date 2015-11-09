@@ -52,7 +52,7 @@
             <div id="gallery" class="gallery">
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -68,7 +68,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -84,7 +84,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -100,7 +100,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -148,7 +148,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
@@ -164,7 +164,7 @@
                 </div>
                 <div class="image gallery-group-1">
                     <div class="image-inner">
-                        <a data-lightbox="gallery-group-1">
+                        <a href="{{ url('/producto-detalle') }}">
                             <img src="{{ url('img/block.jpg')}}" alt="" />
                         </a>
                         <p class="image-caption">
