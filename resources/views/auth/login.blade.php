@@ -44,11 +44,14 @@
 		                    <div class="form-group m-b-20">
 		                        <input type="password" class="form-control input-lg" placeholder="Contraseña" name="password" ng-model="clave" required/>
 		                    </div>
+		                    <div class="m-t-20">
+		                        <a class="btn btn-link" href="{{ url('/password/email') }}"><p>Olvidaste tu Contraseña?</p></a>
+		                    </div>
 		                    <div class="login-buttons">
 		                        <button type="submit" class="btn btn-success btn-block btn-lg">Entrar</button>
 		                    </div>
 		                    <div class="m-t-20">
-		                        <a class="btn btn-link" href="{{ url('/password/email') }}"><p>Olvidaste tu Contraseña?</p></a>
+		                        ¿No eres miembro todavía? <a href="{{ url('registrar') }}" class="text-success">Haga clic aquí </a> Registrar.
 		                    </div>
 		                </form>
 		            </div>

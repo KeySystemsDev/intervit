@@ -19,6 +19,7 @@ Route::get('/producto-detalle', 'ProductoDetalleController@ProductoDetalle');
 Route::get('index-admin', 'IndexAdminController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('/registrar', 'RegistrarController@registrar');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
