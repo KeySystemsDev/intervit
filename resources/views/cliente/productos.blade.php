@@ -50,6 +50,7 @@
         <!-- begin container -->
         <div class="container">
             <div id="gallery" class="gallery">
+                
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -62,10 +63,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -78,10 +81,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -94,10 +99,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -110,10 +117,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -126,10 +135,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -142,10 +153,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -158,10 +171,12 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="image gallery-group-1">
                     <div class="image-inner">
                         <a href="{{ url('/producto-detalle') }}">
@@ -174,17 +189,20 @@
                     <div class="image-info">
                         <h5 class="title">Producto</h5>
                         <div class="pull-center">
-                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                            <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                         </div>
                     </div>
                 </div>
+            
             </div>
         </div>
         <!-- #contact -->
     </div>
     <!-- container -->
+
+    @include('modals/agregar')
     
     @include('layouts/footer-cliente')
-
+    
 </div>
 @endsection

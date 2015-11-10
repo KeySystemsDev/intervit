@@ -82,9 +82,9 @@
                             <br><br>
                             
                                 <div class="text-center button-agregar-producto">
-                                    <button class="btn btn-agregar btn-danger m-r-5 m-b-5"><i class="fa fa-plus"></i> Agregar</button>
+                                    <button class="btn btn-agregar btn-danger m-r-5 m-b-5" data-toggle="modal" data-target="#ModalAgregar"><i class="fa fa-plus"></i> Agregar</button>
                                 </div> 
-                                                                                                                               </div>        
+                                                                                                                                    
                         </div>
                     </div>
                 </div>
@@ -94,6 +94,8 @@
         <!-- #contact -->
     </div>
     <!-- container -->
+
+    @include('modals/agregar')
     
     @include('layouts/footer-cliente')
 
