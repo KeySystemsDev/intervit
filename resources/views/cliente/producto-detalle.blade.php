@@ -54,7 +54,7 @@
                     <div class="panel">
                         <div class="panel-body">
                             <div class="box-detalle-publicidad">
-                                <img class="img-detalle-publicidad img-2" src="http://test-tulocalidad.com.ve/uploads/publicidades_full/diego.carciente@gmail.com-27_7_2015-21:21:06.jpg">  
+                                <img class="img-detalle-publicidad img-2" src="{{ url('img/block.jpg')}}">  
                             </div>
                         </div>
                     </div>
