@@ -33,7 +33,7 @@
                     <!-- end col-9 -->
                     <!-- begin col-3 -->
                     <div class="col-md-3 col-sm-3">
-                        <a href="#" class="btn btn-outline btn-block">Lista de Pedidos</a>
+                        <a href="{{ url ('/cotizacion') }}" class="btn btn-outline btn-block">Lista de Pedidos</a>
                     </div>
                     <!-- end col-3 -->
                 </div>

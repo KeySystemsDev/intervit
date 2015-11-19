@@ -54,7 +54,7 @@
                 
                 <li>
                     <div class="result-image">
-                        <a href="javascript:;"><img src="http://www.test-wanaitravel.com.ve/uploads/paquetes/img_high/e6641ed1037ac493-29_9_2015-16:15:40.jpg" alt=""></a>
+                        <a href="javascript:;"><img src="{{ url('img/block.jpg')}}" alt=""></a>
                     </div>
                     <div class="result-info">
                         <h4 class="title-estado-list"><i class="fa fa-cube"></i> Producto</h4>
@@ -73,7 +73,7 @@
 
                 <li>
                     <div class="result-image">
-                        <a href="javascript:;"><img src="http://www.test-wanaitravel.com.ve/uploads/paquetes/img_high/e6641ed1037ac493-29_9_2015-16:15:40.jpg" alt=""></a>
+                        <a href="javascript:;"><img src="{{ url('img/block.jpg')}}" alt=""></a>
                     </div>
                     <div class="result-info">
                         <h4 class="title-estado-list"><i class="fa fa-cube"></i> Producto</h4>
@@ -92,7 +92,7 @@
 
                 <li>
                     <div class="result-image">
-                        <a href="javascript:;"><img src="http://www.test-wanaitravel.com.ve/uploads/paquetes/img_high/e6641ed1037ac493-29_9_2015-16:15:40.jpg" alt=""></a>
+                        <a href="javascript:;"><img src="{{ url('img/block.jpg')}}" alt=""></a>
                     </div>
                     <div class="result-info">
                         <h4 class="title-estado-list"><i class="fa fa-cube"></i> Producto</h4>

@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', 'CotizacionController@Cotizacion');
+Route::get('/cotizacion', 'CotizacionController@Cotizacion');
 Route::get('/cuentas-pendientes', 'CuentasPendientesController@CuentasPendientes');
-Route::get('/productos', 'ProductosController@Productos');
+Route::get('/', 'ProductosController@Productos');
 Route::get('/producto-detalle', 'ProductoDetalleController@ProductoDetalle');
 
 Route::get('index-admin', 'IndexAdminController@index');
