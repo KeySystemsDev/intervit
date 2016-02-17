@@ -20,6 +20,9 @@ class ProductosController extends Controller {
 	 */
 	public function Productos()
 	{
+
+		$proyectos = \DB::select('CALL RQSP_COONSULTA_ART_COSTOS()');
+		dd($proyectos);
 		return view('cliente/productos');
 	}
 
